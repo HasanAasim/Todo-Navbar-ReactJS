@@ -1,0 +1,60 @@
+body {
+  background: #885cfc;
+  font-size: 30px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  background-color: #1c1a40;
+  margin: auto;
+  width: 35%;
+  padding: 1px 0px;
+  border-radius: 3px;
+}
+
+.btn {
+  background-color: #885cfc;
+  color: white;
+  border: none;
+  width: 17.5%;
+  height: 35px;
+}
+
+.placeholder {
+  color: white;
+  background-color: #1c1a40;
+  border: 1px solid #885cfc;
+  flex: 1;
+  width: 55%;
+  padding: 9px;
+  margin-left: -2px;
+  margin-bottom: 10px;
+}
+
+.txt {
+  background-color: #885cfc;
+  text-align: left;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  width: 80%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 3px;
+}
+
+.dltbtn {
+  display: flex;
+  color: white;
+  background-color: #1c1a40;
+  border: none;
+  float: left;
+}
